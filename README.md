@@ -1,3 +1,3 @@
 de Abreu, Leonardo
 
-![](assets/profile.jpeg)
+![](assets/img/profile.jpeg)
