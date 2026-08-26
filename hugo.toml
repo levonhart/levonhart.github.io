@@ -1,0 +1,141 @@
+baseURL = 'https://levonhart.github.io/'
+locale = 'en-us'
+title = 'Leonardo de Abreu'
+enableRobotsTXT = false
+enableGitInfo = true
+
+theme = 'PaperMod'
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = 'Leonardo de Abreu, LIRMM'
+description = "Leonardo de Abreu, LIRMM"
+keywords = [ "Blog", "Portfolio", "PaperMod" ]
+author = "Leonardo de Abreu"
+images = [ "<link or path of image for opengraph, twitter-cards>" ]
+DateFormat = "2 January, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+hideFooter = false
+showtoc = false
+tocopen = false
+
+[params.assets]
+favicon = "<link / abs url>"
+favicon16x16 = "<link / abs url>"
+favicon32x32 = "<link / abs url>"
+apple_touch_icon = "<link / abs url>"
+safari_pinned_tab = "<link / abs url>"
+
+[params.label]
+text = "abreu"
+icon = "/apple-touch-icon.png"
+iconHeight = 35
+
+[params.profileMode]
+enabled = false
+imageUrl = "img/profile.jpeg"
+imageWidth = 180
+imageHeight = 180
+imageTitle = "Author's picture"
+
+[[params.profileMode.buttons]]
+name = "Posts"
+url = "posts"
+
+[[params.profileMode.buttons]]
+name = "Tags"
+url = "tags"
+
+[params.homeInfoParams]
+Title = "Leonardo de Abreu"
+Content = """
+PhD Student at LIRMM, CNRS / University of Montpellier
+"""
+
+[[params.socialIcons]]
+name = "googlescholar"
+url = "https://scholar.google.com/citations?user=n5C_DigAAAAJ&hl=pt-BR"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/levonhart"
+
+[[params.socialIcons]]
+name = "orcid"
+url = "https://orcid.org/0000-0003-0701-0853"
+
+[[params.socialIcons]]
+name = "lattes"
+url = "https://lattes.cnpq.br/1048682812790798"
+
+# [params.analytics.google]
+# SiteVerificationTag = ""
+#
+# [params.analytics.bing]
+# SiteVerificationTag = ""
+#
+# [params.analytics.yandex]
+# SiteVerificationTag = ""
+
+[params.cover]
+hidden = true
+hiddenInList = true
+hiddenInSingle = true
+
+# [params.editPost]
+# URL = "https://github.com/<path_to_repo>/content"
+# Text = "Suggest Changes"
+# appendFilePath = true
+#
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1_000
+threshold = 0.4
+minMatchCharLength = 0
+limit = 10
+keys = [ "title", "permalink", "summary", "content" ]
+
+[params.footer]
+hideCopyright = true
+
+[[menu.main]]
+identifier = "about me"
+name = "about"
+url = "/"
+weight = 10
+
+[[menu.main]]
+identifier = "publications"
+name = "publications"
+url = "/publications/"
+weight = 20
+
+# [[menu.main]]
+# identifier = "tags"
+# name = "tags"
+# url = "/tags/"
+# weight = 20
+
+[markup.highlight]
+noClasses = false
+
