@@ -1,3 +1,1 @@
-de Abreu, Leonardo
-
-![](assets/img/profile.jpeg)
+personal page
