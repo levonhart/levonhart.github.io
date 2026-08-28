@@ -67,7 +67,8 @@ url = "tags"
 [params.homeInfoParams]
 Title = "Leonardo de Abreu"
 Content = """
-PhD Student at LIRMM, CNRS / University of Montpellier
+PhD Student @ LIRMM \\
+University of Montpellier / CNRS
 """
 
 [[params.socialIcons]]

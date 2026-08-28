@@ -9,7 +9,7 @@ I am a PhD student at
 [LIRMM](https://www.lirmm.fr/),
 working on algorithms, complexity, and robust optimization.
 
-I hold a Master's degree in Computer Science from the [Federal University of Ceará (UFC)](https://mdcc.ufc.br/en/),
+I hold a Master's degree in Computer Science from [Federal University of Ceará (UFC)](https://mdcc.ufc.br/en/),
 with a focus on Algorithms, Graphs, and Optimization,
 and a Bachelor's degree in Industrial Mathematics,
 with a background in Operations Research and Computational Mathematics.
@@ -33,10 +33,10 @@ with focus on sequential decision-making under uncertainty.
 
 ## Research groups
 
-**[LIRMM — Laboratoire d'Informatique, de Robotique et de Microélectronique de Montpellier](https://www.lirmm.fr/)**  
-CNRS / University of Montpellier
+**[MAORE -- Methods, Algorithms for Operations Research](https://www.lirmm.fr/equipes/maore/)**  
+CNRS & University of Montpellier
 
-**[ParGO — Parallelism, Graphs and Optimization](https://pargo.ufc.br/)**  
+**[ParGO -- Parallelism, Graphs and Optimization](https://pargo.ufc.br/)**  
 Federal University of Ceará
 
 

@@ -1,0 +1,43 @@
+<span class="publication-links">
+    {{ with .Get "doi" }}
+    <a href="https://doi.org/{{ . }}" target="_blank" rel="noopener">
+        DOI
+    </a>
+    {{ end }}
+
+    {{ with .Get "paper" }}
+    <a href="{{ . }}" target="_blank" rel="noopener">
+        Paper
+    </a>
+    {{ end }}
+
+    {{ with .Get "abstract" }}
+    <a href="{{ . }}" target="_blank" rel="noopener">
+        Abstract
+    </a>
+    {{ end }}
+
+    {{ with .Get "preprint" }}
+    <a href="{{ . }}" target="_blank" rel="noopener">
+        Preprint
+    </a>
+    {{ end }}
+
+    {{ with .Get "code" }}
+    <a href="{{ . }}" target="_blank" rel="noopener">
+        Code
+    </a>
+    {{ end }}
+
+    {{ with .Get "slides" }}
+    <a href="{{ . }}" target="_blank" rel="noopener">
+        Slides
+    </a>
+    {{ end }}
+
+    {{ with .Get "data" }}
+    <a href="{{ . }}" target="_blank" rel="noopener">
+        Data
+    </a>
+    {{ end }}
+</span>
